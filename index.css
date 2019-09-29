@@ -1,0 +1,304 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500px;
+    line-height: 80px;
+    padding-top: 30px;
+} 
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 100px, 0;
+}
+
+.bg-ligth-grey {
+    background-color: #f5f5f5;
+}
+
+.bg-dark {
+    height: 170px;
+    width: auto;
+    margin-top: 40px;
+    background-color: #1a1a1a;
+}
+
+.bg-dark i {
+    color: #cacaca;
+}
+
+.topmargin-xs {
+    margin-top: 15px;
+}
+
+.topmargin-sm {
+    margin-top: 30px;
+}
+
+.topmargin-lg {
+    margin-top: 60px;
+}
+
+/* Header*/
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.navlink {
+    color: #1a1a1a;
+}
+
+.navlink:hover {
+    color: #1a1a1a;
+}
+
+.logo-brand {
+    min-width: 210px;
+    max-width: 210px;
+}
+
+.navbar-toggler {
+    font-style: 35px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/*Main*/
+#hero {
+    background-image: url('img/mec2.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 600px;
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+
+.btn {
+    font-size: 10px;
+    padding: 10px 16px;
+    min-width: 200px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-ligth {
+    background-color: red;
+    color: #ffffff;
+    border: 2px solid red;
+}
+
+.btn-dark {
+    background-color: #111111;
+    color: #1a1a1a;
+    border-radius: 2px solid #111111;
+}
+
+.btn-dark1 {
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 2px solid #ffffff;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-dark {
+    color: #1a1a1a;
+}
+
+.divider {
+    border-bottom: solid 2px #f5f5f5;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+.products-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.products-detail {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+.products-detail a h2, .products-detail a p {
+    color: white;
+}
+
+.products-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.products-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: #ffffff;
+    border: 2px solid #1a1a1a;
+}
+
+.plan-dark {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: #ffffff;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+.carousel .p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.carousel-indicatiors li {
+    background: #111111;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: #ffffff;
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.control-button {
+    background-color: #111111;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #111111;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.rating i {
+    color: #ffb444;
+    font-size: 26px;
+}
+
+/*Footer*/
+
+.list-inline i {
+    padding-top: 28px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-center p {
+    color: #f5f5f5;
+}
+
+
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .products-detail h2 {
+        font-size: 32px;
+    }
+    .plans {
+        min-width: unset;
+        padding: 40px;
+    }
+    
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .plans { 
+        min-width: unset;
+        padding: 40px 20px;
+    }
+    .products-detail h2 {
+        font-size: 30px;
+    }
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
